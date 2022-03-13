@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+
+    padding: 0;
+    margin: auto;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    /* border: 1px solid red; */
+    font-family: 'Ubuntu', sans-serif; }
+
+header{
+    
+    height:1px;
+}
+.navcontainer{
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    display: flex;
+    font-family: 'Archivo Black', sans-serif;
+    /* margin-top: 12px; */
+    background-color: rgb(255, 255, 255);
+    
+  
+    
+}
+.logo a{
+    color: black;
+    font-size: 30px;
+    padding: 2px;
+    
+}
+.logo span{
+    /* font-weight: 800; */
+    font-family: 'PT Sans Caption', sans-serif;}
+
+.links{
+    
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.links ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0 12px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: 'PT Sans Caption', sans-serif;
+    
+}
+/* Home */
+.container1{
+    display: flex;
+    padding: 150px 0; 
+   
+
+    
+}
+.leftcontent{
+    padding: 150px;
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+    font-family: 'Kaushan Script', cursive;
+    /* text-decoration: underline; */
+    
+}
+.rightcontent img{
+    width: 100%;
+    height: 350px;
+    /* opacity: 80%; */
+    border-radius: 120px 1px 120px 1px;
+    /* box-shadow:  10px 10px #888888 ; */
+    /* border: 12px solid gray; */
+    
+}
+
+/* Containt  */
+.container2{
+    /* padding-bottom: 200px; */
+    /* background-color: rgb(0, 0, 0); */
+    padding: 100px 0; 
+
+    display: flex;
+}   
+.row{
+
+}
+.item{
+    /* box-sizing: border-box; */
+    background-color: white;
+    padding: 40px;
+    margin: 10px 10px;
+
+}
+.item img{
+    height: 185px;
+    
+}
+
+.container3{
+    /* padding-top: 300px; */
+    /* background-color: rgb(245, 245, 245); */
+    padding: 250px 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow;     */
+    
+}  
+
+.ctxt{
+    /* display: flex; */
+    margin:12px 100px;
+    padding: 20px;
+    text-align: center;
+    /* height: 150px; */
+    /* background-color: gray; */
+}
+.cr1{
+    font-size: 25px;
+}
+.cr1 a{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+.cr2 img{
+    padding-bottom:12px ;
+}
+/* help */
+.container4{
+    /* height: 200px; */
+    padding-top: 200px ; 
+   
+
+}
+.funnytxt{
+    height: 200px;
+    padding: 100px;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.container5{
+    /* padding: 50px 0; */
+}
+.funnytxt1{
+    height: 200px;
+    padding: 150px;
+    font-size: 35px;
+    text-align: center;
+}
+/* footer  */
+
+.footcont{
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+.footitem{
+    color: white;
+    font-size: 20px;
+    
+}
+.footitem a{
+    color: white;
+}
